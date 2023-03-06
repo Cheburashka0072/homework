@@ -1,0 +1,41 @@
+@import url("reset.css");
+
+*{
+	color: black;
+}
+
+.main p{
+color:cadetblue;
+}
+
+a {
+	color: red;
+}
+#a1{
+	color: brown;
+}
+
+.main h3{
+	color:blueviolet;
+}
+.footer__sources{
+	color: chartreuse;
+}
+.location > p{
+	color:deeppink;
+}
+.relief ~ p{
+	color: crimson;
+}
+.relief + p{
+	color: black;
+}
+.river *{
+	color:darkgreen;
+}
+.river p{
+	color:darkblue;
+}
+.climate .climate__add{
+	color: darkgoldenrod;
+}
