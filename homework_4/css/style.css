@@ -1,0 +1,60 @@
+@import url("reset.css");
+
+@font-face {
+	font-family: 'Baron Neue';
+	src: url("../fonts/BaronNeueItalic.woff2") format('woff2'),
+			url("../fonts/BaronNeueItalic.woff") format('woff');
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Baron Neue';
+	src: url("../fonts/BaronNeueItalic.woff2") format('woff2'),
+			url("../fonts/BaronNeueItalic.woff") format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+body{
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+	font-style: italic;
+}
+h1{
+	font-family: "Baron Neue", sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	color: rgba(0, 100, 0, 0.7);
+	text-align: center;
+}
+.description p{
+	text-shadow: 2px 2px 6px black;
+	text-decoration: line-through;
+}
+.main p{
+	font-size: 25px;
+}
+h2{
+	font-weight:700;
+	text-decoration: overline;
+}
+h3{
+	text-decoration: underline;
+	color: brown;
+	text-transform: uppercase;
+}
+a{
+	font-family: "Baron Neue", sans-serif;
+	}
+.location{
+	line-height: 3;
+}
+.live p{
+	text-indent: 15px;
+	letter-spacing: 8px;
+}
+.years p{
+	word-spacing: 5px;
+}
