@@ -1,0 +1,73 @@
+@import url("reset.css");
+
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #6C757D;
+}
+.art1 {
+	padding-top: 15px;
+}
+[class*="__container"] {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.block {
+	max-width: 816px;
+	margin: 0 auto 80px;
+}
+.block p{
+	line-height: 1.78;
+	margin-bottom: 30px;
+}
+.title{
+	max-width: 605px;
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 1.6;
+	color: #212529;
+	margin-bottom: 40px;
+}
+.image {
+	max-width: 100%;
+	margin-bottom: 80px;
+}
+.img2{
+		width: 100%;
+		margin-bottom: 100px;
+}
+.pictures {
+	font-size: 0;
+}
+.left {
+	margin-right: 30px;
+}
+.art2 {
+	padding-bottom: 15px;
+}
+.exception{
+	margin-bottom: 20px;
+}
+.except{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+
+.block1{
+	border: 2px solid red;
+	margin-bottom: 30px;
+	background-color: blue;
+	opacity: 0.5;
+}
+.span{
+	outline: 3px dashed black;
+}
+.block2{
+	margin-bottom: 30px;
+	visibility: hidden;
+}
+
