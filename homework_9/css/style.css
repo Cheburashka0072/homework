@@ -1,0 +1,39 @@
+@import url("reset.css");
+
+body {
+	font-size: 18px;
+}
+
+.container {
+	max-width: 1240px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.title {
+	margin-bottom: 15px;
+	font-weight: 700;
+	font-size: 25px;
+}
+
+.text{
+	margin-bottom: 15px;
+}
+
+.icons img{
+	vertical-align: middle;
+}
+
+.content img{
+	max-height: 350px;
+	margin-bottom: 10px;
+	vertical-align: middle;
+}
+.elements{
+    background: url("../img/elements/1.svg") 30% 100% no-repeat, url("../img/elements/2.svg") 50% 50% no-repeat;
+		padding-bottom: 200px;
+}
+
+
+
